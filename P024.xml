@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- kernel and device trees -->
+<project path="device/asus/P024"
+name="LineageOS/android_device_asus_P024"
+revision="cm-14.1" />
+<project path="kernel/asus/P024"
+name="LineageOS/android_kernel_asus_P024"
+revision="cm-14.1" />
+<!-- Binary objects -->
+<project name="TheMuppets/proprietary_vendor_asus" 
+path="vendor/asus" 
+revision="cm-14.1" />
+
+<!-- HADK Chapter 7.1 -->
+<project path="rpm/"
+name="gimmor/droid-hal-P024" revision="master" />
+<project path="hybris/droid-configs"
+name="gimmor/droid-config-P024" revision="master" />
+<project path="hybris/droid-hal-version-P024"
+name="gimmor/droid-hal-version-P024" revision="master" />
+
+</manifest>
